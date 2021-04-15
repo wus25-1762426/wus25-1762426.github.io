@@ -1,0 +1,117 @@
+body {
+    background-image:url('dark_wood.png');
+
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+
+}
+
+a {
+    color:white;
+    font-weight:bold;
+    font-size:24px;
+
+}
+
+h3 {
+    color:#FFBC00;
+    font-size:40px;
+    font-family:"Passion One";
+    margin-bottom:0px;
+
+
+}
+
+div {
+    background-color:#8E41D5;
+
+    background-color: rgb(203, 44, 218);
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+li {
+
+}
+
+#Header {
+    border:solid 8px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px;
+    border:solid 8px black;
+    text-align:center;
+
+    border-radius: 25px;
+    background: #a134a5;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    margin-bottom:30px;
+}
+
+#Header h1 {
+    transform: rotate(5deg);
+    text-shadow: 5px 5px red;
+    font-size: 70px; font-family:"Passion One";color:#FFBC00;font-weight:bold;
+
+
+}
+
+#LeftNav {
+    border:solid 8px black;
+    width:400px;
+    float:left;
+    text-align:center;
+    padding-bottom:8px;
+
+}
+
+#LeftNac img {
+
+}
+
+#LeftNav ul {
+
+
+}
+
+#LeftNav h3 {
+
+}
+
+#Content {
+    border:solid 8px black;
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    text-align:center;
+    padding:15px;
+}
+
+#Footer {
+    border:solid 8px black;
+    text-align:center;
+    
+}
+
+ul {
+    list-style-type:none;
+    padding-left:0px;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  /* The element to apply the animation to */
